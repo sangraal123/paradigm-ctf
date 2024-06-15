@@ -45,29 +45,29 @@ nc 127.0.0.1 1337
 
 Dockerのインストール手順は以下の通りです。
 
-```
+`
 sudo apt-get install apt-transport-https ca-certificates curl gnupg-agent software-properties-common
-```
+`
 
-```
+`
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
-```
+`
 
-```
+`
 sudo apt-key fingerprint 0EBFCD88
-```
+`
 
-```
+`
 sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/debian $(lsb_release -cs) stable"
-```
+`
 
-```
+`
 sudo apt-get update
-```
+`
 
-```
+`
 sudo apt-get install docker-ce docker-ce-cli containerd.io
-```
+`
 
 権限の問題でエラーが出る場合は、端末を再起動してみてください。
 
