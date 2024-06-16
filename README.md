@@ -91,7 +91,7 @@ forge script script/Solve.s.sol:Solve --rpc-url $RPC_URL --broadcast --private-k
 PCTF{flag}
 ```
 
-これがフラグをゲットです。おめでとうございます。
+これでフラグをゲットです。おめでとうございます。
 
 その他の回答の手順についてはそれぞれの年の問題のREADMEを参考にしてください。
 
